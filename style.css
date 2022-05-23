@@ -55,18 +55,12 @@ header{
     font-weight: 300;
 }
 
-.intro-text-container .intro-text h1{
-    font-size: 45px;
-    font-weight: 900;
-    margin: 20px 0px;
-    color: #eee;
-}
 
 span{
     color: #2ecc71;
 }
 
-.intro-text-container .intro-text p{
+.about-me-container .about-me-text p{
     width: 300px;
     max-width: 100%;
     font-size: 15px;
