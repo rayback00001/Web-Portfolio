@@ -4,7 +4,7 @@
 
 
 header{
-    padding: 25px 0px 45px;
+    padding: 25px 80px 45px;
     display: flex;
     flex-wrap: nowrap;
     align-items:center;
@@ -29,6 +29,49 @@ header{
 }
 
 .nav-list li a:hover{
-    color: red;
+    color: #ff1a1a;
     transition: .3s;
 }
+
+
+.about-me-container{
+    padding-top: 290px;
+    background-color: #262626;
+}
+
+.about-me-container .about-me-text{
+    background-color: #0d0d0d;
+    padding: 20px;
+    border:  2px solid #0d0d0d;
+    border-radius: 35px;
+    cursor: pointer;
+    
+}
+
+
+.about-me-container .about-me-text h4{
+    color: #eee;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.intro-text-container .intro-text h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin: 20px 0px;
+    color: #eee;
+}
+
+span{
+    color: #2ecc71;
+}
+
+.intro-text-container .intro-text p{
+    width: 300px;
+    max-width: 100%;
+    font-size: 15px;
+    margin-bottom: 33px;
+    line-height: 1.5;
+    color: #eee;
+}
+
