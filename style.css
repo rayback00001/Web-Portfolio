@@ -1,3 +1,34 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+header{
+    padding: 25px 0px 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: flex-end;
+    background-color: #262626;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
+ .nav-list li a{
+    display: inline-block;
+    color: #eee;
+    margin-left: 52px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nav-list li a:hover{
+    color: red;
+    transition: .3s;
+}
