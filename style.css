@@ -1,5 +1,5 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -26,6 +26,7 @@ header{
     margin-left: 52px;
     font-size: 25px;
     font-weight: 900;
+    text-decoration:none;
 }
 
 .nav-list li a:hover{
@@ -34,44 +35,34 @@ header{
 }
 
 
-.about-me-container{
-    padding-top: 290px;
-    background-color: #262626;
+.about-me{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: grey;
 }
 
-.about-me-container .about-me-text{
-    background-color: #0d0d0d;
-    padding: 20px;
-    border:  2px solid #0d0d0d;
-    border-radius: 35px;
-    cursor: pointer;
-    
+.about-me-text{
+    width: 660px;
 }
 
-
-.about-me-container .about-me-text h4{
-    color: #eee;
-    font-size: 19px;
-    font-weight: 300;
+.about-me-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.intro-text-container .intro-text h1{
-    font-size: 45px;
-    font-weight: 900;
-    margin: 20px 0px;
-    color: #eee;
+.about-me-text h1{
+    font-size: 55px;
+    color: white;
 }
 
-span{
-    color: #2ecc71;
+.about-me-text h2{
+    font-size: 30px;
+    color: antiquewhite;
 }
-
-.intro-text-container .intro-text p{
-    width: 300px;
-    max-width: 100%;
-    font-size: 15px;
-    margin-bottom: 33px;
-    line-height: 1.5;
-    color: #eee;
+.about-me-text p{
+    font-size: 16px;
+    color: red;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
-
