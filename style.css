@@ -1,6 +1,8 @@
 *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 
@@ -35,7 +37,7 @@ header{
     transition: .3s;
 }
 
-
+/*Intro*/
 .intro{
     width: 100%;
     padding: 100px 0px;
@@ -48,7 +50,36 @@ header{
     justify-content: space-around;
 }
 
+.intro-text-main img{
+    width: 280px;
+    height: 280px;
+}
 
+.intro-text h1{
+    color:#00011F;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+
+.about-me-btn a{
+    display: inline-block;
+    border: 2px solid #2ecc71;
+    padding: 9px 28px;
+    border-radius: 25px;
+    font-weight: 450;
+    color: #2ecc71;
+    
+}
+
+
+.about-me-btn a:hover{
+    color: white;
+    background-color: #2ecc71;
+    transition: .5s;
+}
+
+/*About me*/
 .about-me{
     width: 100%;
     padding: 100px 0px;
