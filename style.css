@@ -86,7 +86,7 @@ header{
 .about-me{
     width: 100%;
     padding: 100px 0px;
-    background-color: grey;
+    background-color: #181818;
 }
 
 .about-me-text{
@@ -113,6 +113,19 @@ header{
     color: red;
     letter-spacing: 1px;
     line-height: 30px;
+}
+
+.github-section{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: grey;
+}
+
+
+.github-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
