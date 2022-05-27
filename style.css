@@ -53,6 +53,8 @@ header{
 .intro-text-main img{
     width: 280px;
     height: 280px;
+    border-radius: 50%;
+    border: 5px solid yellow;
 }
 
 .intro-text h1{
@@ -64,18 +66,19 @@ header{
 
 .about-me-btn a{
     display: inline-block;
-    border: 2px solid #2ecc71;
+    border: 2px solid #0C0083;
     padding: 9px 28px;
     border-radius: 25px;
     font-weight: 450;
-    color: #2ecc71;
+    color: white;
+    background-color: #0C0083;
     
 }
 
 
 .about-me-btn a:hover{
-    color: white;
-    background-color: #2ecc71;
+    color: #0C0083;
+    background-color: white;
     transition: .5s;
 }
 
