@@ -15,6 +15,7 @@ header{
     background-color: #EDF1FD;
 }
 
+
 .nav-list{
     list-style: none;
 }
@@ -47,7 +48,7 @@ header{
 .intro-text-main{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
 .intro-text-main img{
@@ -58,26 +59,30 @@ header{
 }
 
 .intro-text h1{
-    color:#00011F;
+    color:#3F4658;
     font-size: 40px;
     line-height: 55px;
+}
+
+.about-me-btn{
+    padding-top: 20px;
 }
 
 
 .about-me-btn a{
     display: inline-block;
-    border: 2px solid #0C0083;
+    border: 3px solid #FF013D;
     padding: 9px 28px;
-    border-radius: 25px;
+    border-radius: 10px;
     font-weight: 450;
     color: white;
-    background-color: #0C0083;
+    background-color: #FF013D;
     
 }
 
 
 .about-me-btn a:hover{
-    color: #0C0083;
+    color: #FF013D;
     background-color: white;
     transition: .5s;
 }
@@ -110,7 +115,7 @@ header{
 }
 .about-me-text p{
     font-size: 16px;
-    color: red;
+    color: #FF013D;
     letter-spacing: 1px;
     line-height: 30px;
 }
