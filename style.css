@@ -64,6 +64,10 @@ header{
     line-height: 55px;
 }
 
+.intro-text h2 span{
+    color: #FF013D;
+}
+
 .about-me-btn{
     padding-top: 20px;
 }
