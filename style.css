@@ -1,12 +1,12 @@
-*{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     list-style: none;
     text-decoration: none;
 }
 
 
-header{
+header {
     padding: 25px 80px 45px;
     display: flex;
     flex-wrap: nowrap;
@@ -16,26 +16,26 @@ header{
 }
 
 
-.nav-list{
+.nav-list {
     list-style: none;
 }
 
-.nav-list li{
+.nav-list li {
     display: inline-block;
 }
 
- .nav-list li a{
+.nav-list li a {
     display: inline-block;
     color: #858995;
     margin-left: 52px;
     font-size: 18px;
     font-weight: 900;
-    text-decoration:none;
+    text-decoration: none;
     position: relative;
 }
 
 
-.nav-list li a::after{
+.nav-list li a::after {
     content: '';
     color: #FF013D;
     position: absolute;
@@ -45,12 +45,12 @@ header{
     height: 2px;
     background-color: currentColor;
 
-   transform: scaleX(0);
-   transform-origin: right;
-   transition: transform 250ms ease-in;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
 }
 
-.nav-list li a:hover::after{
+.nav-list li a:hover::after {
     color: #FF013D;
     transform: scaleX(1);
     transform-origin: left;
@@ -58,41 +58,41 @@ header{
 
 
 /*Intro*/
-.intro{
+.intro {
     width: 100%;
     padding: 100px 0px;
     background-color: #EDF1FD;
 }
 
-.intro-text-main{
+.intro-text-main {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.intro-text-main img{
+.intro-text-main img {
     width: 280px;
     height: 280px;
     border-radius: 50%;
     border: 5px solid yellow;
 }
 
-.intro-text h1{
-    color:#3F4658;
+.intro-text h1 {
+    color: #3F4658;
     font-size: 40px;
     line-height: 55px;
 }
 
-.intro-text h2 span{
+.intro-text h2 span {
     color: #FF013D;
 }
 
-.about-me-btn{
+.about-me-btn {
     padding-top: 20px;
 }
 
 
-.about-me-btn a{
+.about-me-btn a {
     display: inline-block;
     border: 3px solid #FF013D;
     padding: 9px 28px;
@@ -100,60 +100,59 @@ header{
     font-weight: 450;
     color: white;
     background-color: #FF013D;
-    
+
 }
 
 
-.about-me-btn a:hover{
+.about-me-btn a:hover {
     color: #FF013D;
     background-color: white;
     transition: .5s;
 }
 
 /*About me*/
-.about-me{
+.about-me {
     width: 100%;
     padding: 100px 0px;
     background-color: #181818;
 }
 
-.about-me-text{
+.about-me-text {
     width: 660px;
 }
 
-.about-me-main{
+.about-me-main {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.about-me-text h1{
+.about-me-text h1 {
     font-size: 55px;
     color: white;
 }
 
-.about-me-text h2{
+.about-me-text h2 {
     font-size: 25px;
     color: antiquewhite;
 }
-.about-me-text p{
+
+.about-me-text p {
     font-size: 16px;
     color: #FF013D;
     letter-spacing: 1px;
     line-height: 30px;
 }
 
-.github-section{
+.github-section {
     width: 100%;
     padding: 100px 0px;
     background-color: grey;
 }
 
 
-.github-main{
+.github-main {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
-
