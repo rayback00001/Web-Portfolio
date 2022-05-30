@@ -1,8 +1,4 @@
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-var typed = new Typed(".input", {
-    strings:["Designer", "Developer", "cooler Typ"],
-    typeSpeed:120,
-    backSpeed:110,
-    loop: true
+window.addEventListener("scroll", function(){
+var header = this.document.querySelector("header");
+header.classList.toggle("sticky", this.window.scrollY > 0);
 })
