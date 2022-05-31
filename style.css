@@ -160,5 +160,14 @@ header {
 }
 
 .github-form{
-    
+
+}
+
+.github-form button{
+    cursor: pointer;
+    color: white;
+    background-color: #2DA44E;
+    border: #2DA44E;
+    border-radius: 15px;
+    padding: 15px 20px;
 }
