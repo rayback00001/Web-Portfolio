@@ -149,7 +149,7 @@ header {
 .github-section {
     width: 100%;
     padding: 100px 0px;
-    background-color: grey;
+    background-color: white;
 }
 
 
@@ -157,4 +157,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.github-form{
+    
 }
