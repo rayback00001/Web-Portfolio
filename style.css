@@ -161,6 +161,7 @@ header {
 
 .github-form{
     background-color: #FF013D;
+    padding: 50px;
 }
 .github-form input[type = "text"]{
     height: 25px;
