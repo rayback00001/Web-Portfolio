@@ -160,7 +160,10 @@ header {
 }
 
 .github-form{
-
+    
+}
+.github-form input[type = "text"]{
+    height: 25px;
 }
 
 .github-form button{
