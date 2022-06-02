@@ -133,22 +133,25 @@ header {
     justify-content: space-around;
 }
 
-.about-me-text h1 {
+.about-me-text {
+   h1{
     font-size: 55px;
     color: white;
-}
+   }
 
-.about-me-text h2 {
+   h2{
     font-size: 25px;
     color: antiquewhite;
-}
+   }
 
-.about-me-text p {
+   p{
     font-size: 16px;
     color: #FF013D;
     letter-spacing: 1px;
     line-height: 30px;
+   }
 }
+
 
 .github-section {
     width: 100%;
