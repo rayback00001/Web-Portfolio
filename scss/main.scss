@@ -7,6 +7,9 @@
 }
 
 
+$redcolor: #FF013D;
+
+
 header {
     padding: 25px 80px 45px;
     display: flex;
@@ -40,7 +43,7 @@ header {
 
     a::after{
         content: '';
-        color: #FF013D;
+        color: $redcolor;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -91,7 +94,7 @@ header {
 }
 
 .intro-text h2 span {
-    color: #FF013D;
+    color: $redcolor;
 }
 
 .about-me-btn {
@@ -103,16 +106,16 @@ header {
 
     a{
     display: inline-block;
-    border: 3px solid #FF013D;
+    border: 3px solid $redcolor;
     padding: 9px 28px;
     border-radius: 10px;
     font-weight: 450;
     color: white;
-    background-color: #FF013D;
+    background-color: $redcolor;
     }
 
     a:hover{
-        color: #FF013D;
+        color: $redcolor;
         background-color: white;
         transition: .5s; 
     }
@@ -149,7 +152,7 @@ header {
 
    p{
     font-size: 16px;
-    color: #FF013D;
+    color: $redcolor;
     letter-spacing: 1px;
     line-height: 30px;
    }
@@ -170,7 +173,7 @@ header {
 }
 
 .github-form{
-    background-color: #FF013D;
+    background-color: $redcolor;
     padding: 50px;
 }
 .github-form input[type = "text"]{
