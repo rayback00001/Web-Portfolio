@@ -197,4 +197,63 @@ header {
   border-radius: 15px;
   padding: 15px 20px;
 }
+
+/*Hobby*/
+.hobby-section {
+  background: #3F4658;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: #191919;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: 15px;
+}
+
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  color: #FF013D;
+}
+
+.card h5 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.parag {
+  color: wheat;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
 /*# sourceMappingURL=main.css.map */
