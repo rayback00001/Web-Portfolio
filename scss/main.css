@@ -133,24 +133,52 @@ header {
 }
 
 .github-section {
-  width: 100%;
-  padding: 100px 0px;
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, turquoise, rgb(94, 69, 182));
 }
 
 .github-main {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .github-form {
-  background-color: #FF013D;
+  width: 25rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
   padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
 }
 
-.github-form input[type=text] {
-  height: 25px;
+.github-form h1 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+}
+
+.github-form label {
+  font-size: 18px;
+  color: white;
+  margin-left: 10%;
+  opacity: 0.7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.github-form input {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .github-form button {
