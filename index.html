@@ -65,7 +65,8 @@
                 <div class = "github-form">
                     <label for="username">Mein Username</label>
                     <br />
-                    <input type="text" id = "username-text">
+                    <input type="text"  id = "username-text" >
+                    <span class="username"></span>
                     <button>Github Link</button>
                 </div>
         </div>
@@ -112,6 +113,14 @@
     <script>
         var typed = new Typed(".input", {
             strings: ["Designer", "Developer", "cooler Typ"],
+            typeSpeed: 60,
+            backSpeed: 70,
+            loop: true
+        })
+
+
+        var typed = new Typed("#username-text", {
+            strings: ["rayback00001"],
             typeSpeed: 60,
             backSpeed: 70,
             loop: true
