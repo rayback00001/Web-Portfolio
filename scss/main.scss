@@ -156,7 +156,7 @@ header {
    }
 }
 
-
+/*Github*/
 .github-section {
     display: flex;
     justify-content: center;
@@ -218,6 +218,16 @@ header {
     border: #2DA44E;
     cursor: pointer;
 
+}
+
+.github-text{
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 25px;
 }
 
 /*Hobby*/
