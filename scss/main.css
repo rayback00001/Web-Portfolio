@@ -138,6 +138,7 @@ header {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, turquoise, rgb(94, 69, 182));
+  height: 40rem;
 }
 
 .github-main {
