@@ -153,8 +153,10 @@ header {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
   margin-left: 40px;
 }
 
@@ -165,7 +167,6 @@ header {
   margin-top: -20px;
   margin-bottom: 20px;
 }
-
 .github-form label {
   font-size: 18px;
   color: white;

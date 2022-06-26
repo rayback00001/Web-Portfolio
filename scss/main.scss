@@ -177,26 +177,29 @@ header {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255,255,255,.4);
+    border-top: 1px solid rgba(255,255,255,.4);
     margin-left: 40px;
-
 }
 
-.github-form h1 {
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
 
-.github-form label {
-    font-size: 18px;
-    color: white;
-    margin-left: 10%;
-    opacity: .7;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+.github-form{
+    h1{
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+        margin-bottom: 20px; 
+    }
+    label {
+        font-size: 18px;
+        color: white;
+        margin-left: 10%;
+        opacity: .7;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    }
 }
 
 .github-form input {
@@ -286,4 +289,4 @@ header {
     color: wheat;
     line-height: 30px;
     margin-bottom: 25px;
-}
+} 
