@@ -12,7 +12,7 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  background-color: #EDF1FD;
+  background-color: #11162b;
 }
 
 .nav-list {
@@ -25,7 +25,7 @@ header {
 
 .nav-list li a {
   display: inline-block;
-  color: #858995;
+  color: grey;
   margin-left: 52px;
   font-size: 18px;
   font-weight: 900;
@@ -55,7 +55,7 @@ header {
 .intro {
   width: 100%;
   padding: 100px 0px;
-  background-color: #EDF1FD;
+  background-color: #11162b;
 }
 
 .intro-text-main {
