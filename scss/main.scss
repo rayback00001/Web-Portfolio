@@ -246,7 +246,7 @@ header {
 }
 
 .title h2 {
-    color: white;
+    color: #0ee5b8;
     font-size: 55px;
     width: 100%;
     margin: 30px auto;
@@ -263,10 +263,9 @@ header {
 
 .card {
     height: 365px;
-    width: 335px;
+    width: 235px;
     padding: 20px 35px;
-    background-color: #191919;
-    border-radius: 20px;
+    background-color: #2e365a;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -275,20 +274,23 @@ header {
 
 .card i {
     font-size: 50px;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
     color: $redcolor;
 
 }
 
 .card h5 {
-    color: white;
+    color: #559fc0;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
     font-size: 22px;
     margin-bottom: 15px;
 }
 
 .parag {
-    color: wheat;
+    color: grey;
     line-height: 30px;
     margin-bottom: 25px;
 } 
