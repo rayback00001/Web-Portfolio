@@ -81,10 +81,6 @@ header {
   color: #FF013D;
 }
 
-.about-me-btn {
-  padding-top: 20px;
-}
-
 .about-me-btn a {
   display: inline-block;
   border: 3px solid #FF013D;
@@ -262,6 +258,6 @@ header {
 
 .parag {
   color: grey;
-  line-height: 30px;
+  line-height: 25px;
   margin-bottom: 25px;
 }/*# sourceMappingURL=main.css.map */
