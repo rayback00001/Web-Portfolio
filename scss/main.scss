@@ -30,6 +30,7 @@ header::after{
 }
 
 
+
 .nav-list {
     list-style: none;
 }
@@ -111,7 +112,20 @@ header::after{
     width: 100%;
     padding: 100px 0px;
     background-color: #11162b;
+    position: relative;
 }
+
+.about-me::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background-color: #0ee5b8;
+}
+
 
 .about-me-text {
     width: 660px;
@@ -149,7 +163,20 @@ header::after{
     justify-content: center;
     background-color: #11162b;
     height: 40rem;
+    position: relative;
 }
+
+.github-section::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background-color: #0ee5b8;
+}
+
 
 .github-main {
     display: flex;
