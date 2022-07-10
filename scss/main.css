@@ -46,7 +46,7 @@ header::after {
 }
 .nav-list li a::after {
   content: "";
-  color: #FF013D;
+  color: #0ee5b8;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -58,7 +58,7 @@ header::after {
   transition: transform 250ms ease-in;
 }
 .nav-list li a:hover::after {
-  color: #FF013D;
+  color: #0ee5b8;
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -84,28 +84,13 @@ header::after {
 }
 
 .intro-text h1 {
-  color: #3F4658;
+  color: #0ee5b8;
   font-size: 40px;
   line-height: 55px;
 }
 
 .intro-text h2 span {
-  color: #FF013D;
-}
-
-.about-me-btn a {
-  display: inline-block;
-  border: 3px solid #FF013D;
-  padding: 9px 28px;
-  border-radius: 10px;
-  font-weight: 450;
-  color: white;
-  background-color: #FF013D;
-}
-.about-me-btn a:hover {
-  color: #FF013D;
-  background-color: white;
-  transition: 0.5s;
+  color: #559fc0;
 }
 
 /*About me*/
@@ -127,11 +112,11 @@ header::after {
 
 .about-me-text h1 {
   font-size: 55px;
-  color: white;
+  color: #0ee5b8;
 }
 .about-me-text h2 {
   font-size: 25px;
-  color: antiquewhite;
+  color: #559fc0;
 }
 .about-me-text p {
   font-size: 16px;
@@ -256,7 +241,7 @@ header::after {
   font-size: 50px;
   display: flex;
   justify-content: flex-start;
-  color: #FF013D;
+  color: #DE8AF3;
 }
 
 .card h5 {

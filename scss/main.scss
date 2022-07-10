@@ -53,7 +53,7 @@ header::after{
 
     a::after {
         content: '';
-        color: $redcolor;
+        color: #0ee5b8;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -67,7 +67,7 @@ header::after{
     }
 
     a:hover::after {
-        color: #FF013D;
+        color: #0ee5b8;
         transform: scaleX(1);
         transform-origin: left;
     }
@@ -97,33 +97,13 @@ header::after{
 
 
 .intro-text h1 {
-    color: #3F4658;
+    color: #0ee5b8;
     font-size: 40px;
     line-height: 55px;
 }
 
 .intro-text h2 span {
-    color: $redcolor;
-}
-
-
-.about-me-btn {
-
-    a {
-        display: inline-block;
-        border: 3px solid $redcolor;
-        padding: 9px 28px;
-        border-radius: 10px;
-        font-weight: 450;
-        color: white;
-        background-color: $redcolor;
-    }
-
-    a:hover {
-        color: $redcolor;
-        background-color: white;
-        transition: .5s;
-    }
+    color: #559fc0;
 }
 
 
@@ -147,12 +127,12 @@ header::after{
 .about-me-text {
     h1 {
         font-size: 55px;
-        color: white;
+        color: #0ee5b8;
     }
 
     h2 {
         font-size: 25px;
-        color: antiquewhite;
+        color: #559fc0;
     }
 
     p {
@@ -284,7 +264,7 @@ header::after{
     font-size: 50px;
     display: flex;
     justify-content: flex-start;
-    color: $redcolor;
+    color: #DE8AF3;
 
 }
 
