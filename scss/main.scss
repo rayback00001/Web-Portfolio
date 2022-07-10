@@ -113,15 +113,17 @@ header::after{
     padding: 100px 0px;
     background-color: #11162b;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-me::after{
     content: "";
     position: absolute;
     display: block;
-    bottom: 20px;
-    left: 25%;
-    width: 50%;
+    bottom: 0;
+    width: 60%;
     height: 2px;
     background-color: #0ee5b8;
 }
@@ -171,8 +173,7 @@ header::after{
     position: absolute;
     display: block;
     bottom: 0;
-    left: 25%;
-    width: 50%;
+    width: 60%;
     height: 2px;
     background-color: #0ee5b8;
 }
@@ -308,6 +309,7 @@ header::after{
     line-height: 25px;
     margin-bottom: 25px;
 } 
+
 
 
 /*Footer*/
