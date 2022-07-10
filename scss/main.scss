@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -37,6 +37,7 @@ header {
         font-weight: 900;
         text-decoration: none;
         position: relative;
+        text-transform: uppercase;
     }
 
     a::after {
@@ -61,7 +62,6 @@ header {
     }
 
 }
-
 
 
 /*Intro*/
