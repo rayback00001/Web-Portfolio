@@ -106,19 +106,47 @@ header::after{
     color: #559fc0;
 }
 
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .intro-card {
-    height: 280px;
+    height: 200px;
     width: 245px;
     padding: 20px 35px;
     background-color: #2e365a;
     position: relative;
     overflow: hidden;
     margin: 15px;
+    margin-left: 100px;
 }
 
+.intro-card2{
+    height: 230px;
+    width: 245px;
+    padding: 20px 35px;
+    background-color: #2e365a;
+    position: relative;
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 240px;
+
+}
 
 .intro-card h5 {
+    color: #DE8AF3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.intro-card2 h5{
     color: #DE8AF3;
     display: flex;
     justify-content: flex-start;
@@ -134,6 +162,13 @@ h5 .i{
 }
 
 .intro-card .parag {
+    color: grey;
+    line-height: 25px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+} 
+
+.intro-card2 .parag {
     color: grey;
     line-height: 25px;
     margin-bottom: -10px;
