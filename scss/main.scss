@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -15,9 +15,20 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    background-color: #EDF1FD;
-
+    background-color: #11162b;
+    position: relative;
 }
+
+header::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: #1E2441;
+}
+
 
 
 .nav-list {
@@ -32,22 +43,22 @@ header {
 
     a {
         display: inline-block;
-        color: #858995;
+        color: grey;
         margin-left: 52px;
         font-size: 18px;
-        font-weight: 900;
         text-decoration: none;
         position: relative;
+        text-transform: uppercase;
     }
 
     a::after {
         content: '';
-        color: $redcolor;
+        color: #0ee5b8;
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 2px;
+        height: 1px;
         background-color: currentColor;
 
         transform: scaleX(0);
@@ -56,7 +67,7 @@ header {
     }
 
     a:hover::after {
-        color: #FF013D;
+        color: #0ee5b8;
         transform: scaleX(1);
         transform-origin: left;
     }
@@ -68,64 +79,117 @@ header {
 .intro {
     width: 100%;
     padding: 100px 0px;
-    background-color: #EDF1FD;
+    background-color: #11162b;
 }
 
 .intro-text-main {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.intro-text-main img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    border: 5px solid yellow;
+    justify-content: center;
 }
 
 
 .intro-text h1 {
-    color: #3F4658;
+    color: #0ee5b8;
     font-size: 40px;
     line-height: 55px;
 }
 
 .intro-text h2 span {
-    color: $redcolor;
+    color: #559fc0;
 }
 
-.about-me-btn {
-    padding-top: 20px;
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-.about-me-btn {
-
-    a {
-        display: inline-block;
-        border: 3px solid $redcolor;
-        padding: 9px 28px;
-        border-radius: 10px;
-        font-weight: 450;
-        color: white;
-        background-color: $redcolor;
-    }
-
-    a:hover {
-        color: $redcolor;
-        background-color: white;
-        transition: .5s;
-    }
+.intro-card {
+    height: 200px;
+    width: 245px;
+    padding: 20px 35px;
+    background-color: #2e365a;
+    position: relative;
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 100px;
 }
+
+.intro-card2{
+    height: 230px;
+    width: 245px;
+    padding: 20px 35px;
+    background-color: #2e365a;
+    position: relative;
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 240px;
+
+}
+
+.intro-card h5 {
+    color: #DE8AF3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.intro-card2 h5{
+    color: #DE8AF3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+h5 .i{
+    color: white;
+    padding-left: 6px;
+}
+
+.intro-card .parag {
+    color: grey;
+    line-height: 25px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+} 
+
+.intro-card2 .parag {
+    color: grey;
+    line-height: 25px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+} 
 
 
 /*About me*/
 .about-me {
     width: 100%;
     padding: 100px 0px;
-    background-color: #181818;
+    background-color: #11162b;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.about-me::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: #0ee5b8;
+}
+
 
 .about-me-text {
     width: 660px;
@@ -140,12 +204,12 @@ header {
 .about-me-text {
     h1 {
         font-size: 55px;
-        color: white;
+        color: #0ee5b8;
     }
 
     h2 {
         font-size: 25px;
-        color: antiquewhite;
+        color: #559fc0;
     }
 
     p {
@@ -161,9 +225,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, turquoise, rgb(94, 69, 182));
+    background-color: #11162b;
     height: 40rem;
+    position: relative;
 }
+
+.github-section::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: #0ee5b8;
+}
+
 
 .github-main {
     display: flex;
@@ -226,29 +302,18 @@ header {
 
 }
 
-.github-text {
-    width: 35rem;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 25px;
-    border-left: 1px solid rgba(255,255,255,.4);
-    border-top: 1px solid rgba(255,255,255,.4);
-}
 
 /*Hobby*/
 
 .hobby-section {
-    background: #000000;
+    background: #11162b;
     width: 100%;
     padding: 100px 0px;
 }
 
 .title h2 {
-    color: white;
-    font-size: 75px;
+    color: #0ee5b8;
+    font-size: 55px;
     width: 100%;
     margin: 30px auto;
     display: flex;
@@ -264,10 +329,9 @@ header {
 
 .card {
     height: 365px;
-    width: 335px;
+    width: 235px;
     padding: 20px 35px;
-    background-color: #191919;
-    border-radius: 20px;
+    background-color: #2e365a;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -276,20 +340,89 @@ header {
 
 .card i {
     font-size: 50px;
-    display: block;
-    text-align: center;
-    color: $redcolor;
+    display: flex;
+    justify-content: flex-start;
+    color: #DE8AF3;
 
 }
 
 .card h5 {
-    color: white;
+    color: #559fc0;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
     font-size: 22px;
     margin-bottom: 15px;
 }
 
 .parag {
-    color: wheat;
-    line-height: 30px;
+    color: grey;
+    line-height: 25px;
     margin-bottom: 25px;
 } 
+
+
+
+/*Footer*/
+footer {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #12152B;
+    position: relative;
+  }
+
+  footer::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1E2441;
+}
+
+  
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    position: relative;
+    width: 60%;
+  }
+
+  footer .container::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #1E2441;
+  }
+  
+  
+  footer a {
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+
+  footer p{
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: gray;
+  }
+  
+  
+  
