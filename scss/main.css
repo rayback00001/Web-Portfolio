@@ -92,6 +92,38 @@ header::after {
   color: #559fc0;
 }
 
+.intro-card {
+  height: 280px;
+  width: 245px;
+  padding: 20px 35px;
+  background-color: #2e365a;
+  position: relative;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.intro-card h5 {
+  color: #DE8AF3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+h5 .i {
+  color: white;
+  padding-left: 6px;
+}
+
+.intro-card .parag {
+  color: grey;
+  line-height: 25px;
+  margin-bottom: -10px;
+  padding-left: 15px;
+}
+
 /*About me*/
 .about-me {
   width: 100%;
