@@ -363,6 +363,32 @@ h5 .i{
 } 
 
 
+/*Kontakt*/
+.contact-section{
+    background: #11162b;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box{
+
+    h1{
+        font-size: 40px;
+        color: grey;
+    }
+
+    .text{
+       display: block;
+    }
+}
+
+
 
 /*Footer*/
 footer {
