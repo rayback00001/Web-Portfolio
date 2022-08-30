@@ -374,6 +374,7 @@ h5 .i{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .contact-box{
@@ -384,7 +385,21 @@ h5 .i{
     }
 
     .text{
-       display: block;
+       display: flex;
+       color: grey;
+       padding-top: 20px;
+    }
+
+    a{
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
     }
 }
 
