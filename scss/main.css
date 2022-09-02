@@ -279,7 +279,7 @@ h5 .i {
 .hobby-section {
   background: #11162b;
   width: 100%;
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 
 .title h2 {
@@ -299,7 +299,7 @@ h5 .i {
 }
 
 .card {
-  height: 365px;
+  height: 350px;
   width: 235px;
   padding: 20px 35px;
   background-color: #2e365a;
@@ -329,6 +329,67 @@ h5 .i {
   color: grey;
   line-height: 25px;
   margin-bottom: 25px;
+}
+
+/*Kontakt*/
+.contact-section {
+  background: #11162b;
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.contact-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-box h1 {
+  font-size: 40px;
+  color: grey;
+}
+
+.contact-box .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: grey;
+  padding-top: 20px;
+}
+
+.contact-box a {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.mail-link {
+  color: #0ee5b8;
+  background-color: transparent;
+  border: 1px solid #0ee5b8;
+  border-radius: 3px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.mail-link:hover {
+  background: rgba(14, 229, 184, 0.1);
 }
 
 /*Footer*/
