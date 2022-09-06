@@ -553,6 +553,11 @@ footer p {
   display: flex;
   font-size: 13px;
   margin-bottom: 8px;
+  color: #0ee5b8;
+  cursor: pointer;
+}
+
+footer p:hover {
   color: gray;
 }
 /*# sourceMappingURL=main.css.map */
