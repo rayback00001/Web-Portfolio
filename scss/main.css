@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   list-style: none;
   text-decoration: none;
@@ -8,10 +8,17 @@
 
 header {
   padding: 25px 80px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #11162b;
   position: relative;
 }
@@ -43,8 +50,9 @@ header::after {
   position: relative;
   text-transform: uppercase;
 }
+
 .nav-list li a::after {
-  content: "";
+  content: '';
   color: #0ee5b8;
   position: absolute;
   left: 0;
@@ -52,14 +60,22 @@ header::after {
   width: 100%;
   height: 1px;
   background-color: currentColor;
-  transform: scaleX(0);
-  transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
   transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
 }
+
 .nav-list li a:hover::after {
   color: #0ee5b8;
-  transform: scaleX(1);
-  transform-origin: left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 
 /*Intro*/
@@ -70,9 +86,15 @@ header::after {
 }
 
 .intro-text-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .intro-text h1 {
@@ -86,9 +108,16 @@ header::after {
 }
 
 .card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .intro-card {
@@ -115,9 +144,15 @@ header::after {
 
 .intro-card h5 {
   color: #DE8AF3;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 40px;
   font-size: 17px;
   margin-bottom: 15px;
@@ -125,9 +160,15 @@ header::after {
 
 .intro-card2 h5 {
   color: #DE8AF3;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 40px;
   font-size: 17px;
   margin-bottom: 15px;
@@ -158,9 +199,15 @@ h5 .i {
   padding: 100px 0px;
   background-color: #11162b;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-me::after {
@@ -178,19 +225,26 @@ h5 .i {
 }
 
 .about-me-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .about-me-text h1 {
   font-size: 55px;
   color: #0ee5b8;
 }
+
 .about-me-text h2 {
   font-size: 25px;
   color: #559fc0;
 }
+
 .about-me-text p {
   font-size: 16px;
   color: #FF013D;
@@ -200,9 +254,15 @@ h5 .i {
 
 /*Github*/
 .github-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #11162b;
   height: 40rem;
   position: relative;
@@ -219,22 +279,34 @@ h5 .i {
 }
 
 .github-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .github-form {
   width: 25rem;
   height: 28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 50px;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.4);
   border-top: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 20px;
+  -webkit-box-shadow: 0 8px 20px;
+          box-shadow: 0 8px 20px;
   margin-left: 40px;
 }
 
@@ -245,11 +317,12 @@ h5 .i {
   margin-top: -20px;
   margin-bottom: 20px;
 }
+
 .github-form label {
   font-size: 18px;
   color: white;
   margin-left: 10%;
-  opacity: 0.7;
+  opacity: .7;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -287,14 +360,24 @@ h5 .i {
   font-size: 55px;
   width: 100%;
   margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 400px;
 }
 
@@ -311,15 +394,23 @@ h5 .i {
 
 .card i {
   font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   color: #DE8AF3;
 }
 
 .card h5 {
   color: #559fc0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: 40px;
   font-size: 22px;
   margin-bottom: 15px;
@@ -395,10 +486,18 @@ h5 .i {
 /*Footer*/
 footer {
   padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #12152B;
   position: relative;
 }
@@ -414,8 +513,13 @@ footer::after {
 }
 
 footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 20px;
   position: relative;
   width: 60%;
@@ -444,8 +548,16 @@ footer a:hover {
 }
 
 footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 13px;
   margin-bottom: 8px;
+  color: #0ee5b8;
+  cursor: pointer;
+}
+
+footer p:hover {
   color: gray;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
