@@ -44,11 +44,11 @@ header::after {
 .nav-list li a {
   display: inline-block;
   color: grey;
-  margin-left: 52px;
-  font-size: 18px;
+  margin-left: 51px;
+  font-size: 15px;
   text-decoration: none;
   position: relative;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .nav-list li a::after {
