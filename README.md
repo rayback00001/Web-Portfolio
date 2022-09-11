@@ -1,3 +1,3 @@
-# Website-Portfolio
+# Web-Portfolio
 
-I created this Website-Portfolio to show my Web-Development skills for my internship search. 
+I created this Web-Portfolio to show my Web-Development skills for my internship search. 
