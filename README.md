@@ -1,3 +1,7 @@
 # Web-Portfolio
 
-I created this Web-Portfolio to show my Web-Development skills for my internship search. 
+I am creating a Web-Portfolio to show my Web-Development skills for my internship search. 
+
+# Process
+
+Not finished, still in process...
